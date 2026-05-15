@@ -18,7 +18,7 @@ import clients3 from "@/assets/clients-3.jpg";
 import compImg from "@/assets/comp_img.png";
 
 export const Route = createFileRoute("/")({
-  component: Index,
+  component: Index, 
   head: () => ({
     meta: [
       { title: "Compatíveis — Transforme o seu relacionamento" },
