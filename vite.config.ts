@@ -12,7 +12,7 @@ export default defineConfig({
   vite: {
     plugins: [
       nitro({
-        preset: "vercel", // ← Isso ajuda o Vercel
+        preset: "vercel",
       }),
     ],
   },
