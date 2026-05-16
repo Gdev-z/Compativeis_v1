@@ -1,5 +1,8 @@
 {
-  "buildCommand": "bun run build",
-  "outputDirectory": "dist",
-  "framework": "vite"
+  "buildCommand": "bun run build && node scripts/generate-static.js",
+  "outputDirectory": "dist/client",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
