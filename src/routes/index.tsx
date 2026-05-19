@@ -507,7 +507,7 @@ function CTA() {
         <span className="text-stroke">AGORA</span>
       </Reveal>
       <a
-        href="mailto:hello@greyola.studio"
+        href=""
         className="inline-flex items-center gap-3 mt-10 font-mono text-[11px] uppercase tracking-[0.25em] bg-ember text-foreground px-8 py-4 rounded-full hover:opacity-90 transition-all ember-glow"
       >
         Tornar-se Compativel →
